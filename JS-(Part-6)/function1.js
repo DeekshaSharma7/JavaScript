@@ -27,17 +27,3 @@ function isadult() {
 }
 
 isadult();
-
---------------------------------------------------------------------
-
-  OUTPUT:
-
-HELLO!!
-HELLO!!
-Deeksha Sharma
-1
-2
-3
-4
-5
-Adult
