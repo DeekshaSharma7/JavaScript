@@ -34,3 +34,7 @@ const myFunc = function(){
 }
 
 console.log(typeof  scoreValue);
+console.log(typeof outsideTemp);
+console.log(typeof myFunc);
+console.log(typeof heroes);
+console.log(typeof anotherId);
