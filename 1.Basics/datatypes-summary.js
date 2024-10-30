@@ -33,8 +33,34 @@ const myFunc = function(){
     console.log("Heloo! World");
 }
 
-console.log(typeof  scoreValue);
-console.log(typeof outsideTemp);
-console.log(typeof myFunc);
-console.log(typeof heroes);
-console.log(typeof anotherId);
+// console.log(typeof  scoreValue);
+// console.log(typeof outsideTemp);
+// console.log(typeof myFunc);
+// console.log(typeof heroes);
+// console.log(typeof anotherId);
+
+// **********************************************************
+
+//Stack(Primitive), Heap(Non-primitive)
+//stack m copy milta h - numbers, booleans, etc
+//Heap m reference milta h, reference means changes are made in the original value.
+
+let myName = "deekshaSha"
+
+let anotherName = myName
+anotherName = "chai"
+console.log(anotherName);
+console.log(myName);
+
+
+let user1 = {
+    email: "user@gmail.com",
+    upi: "user@sbi",
+}
+
+let user2 = user1
+user2.email = "deeksha@gmail.com"
+
+console.log(user1.email);
+console.log(user2.email);
+
