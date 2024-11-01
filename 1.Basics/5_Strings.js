@@ -12,11 +12,21 @@ const gameName = new String('jyoti');
 
 // console.log(gameName.length);
 // console.log(gameName.toUpperCase());
-console.log(gameName.charAt(2)); 
-console.log(gameName.indexOf('t'));
+//console.log(gameName.charAt(2)); 
+//console.log(gameName.indexOf('t'));
 
 const newString = gameName.substring(0,4)
-console.log(newString);
+//console.log(newString);
 
 const anotherString = gameName.slice(-4,2);
-console.log(anotherString);
+//console.log(anotherString);
+
+const newString1 = "   deeksha    ";
+console.log(newString1);
+console.log(newString1.trim);
+
+const url = "https://deekshasharma.com/deeksha%20sharma"
+console.log(url.replace('%20', '-'));
+console.log(url.includes('sunder'));
+
+console.log(gameName.split('-'))
