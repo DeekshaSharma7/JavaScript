@@ -26,4 +26,39 @@ add2Num(3, "a");
 add2Num(3, null);
 
 const result = add2Num(3,5);
-console.log("Result: " , result);
+//console.log("Result: " , result);
+
+function loginUserMsg(username){ // or username="sam"
+    //if(username === undefined){
+    if(!username){
+        console.log("Please enter a username.");
+        return
+    }
+    return `${username} just logged in`
+}
+// console.log(loginUserMsg());
+// console.log(loginUserMsg("deeksha"));
+
+
+function calculateCartPrice(...num1){ // ... are the rest operator
+return num1
+}
+//console.log(calculateCartPrice(200,300,400,82,652));
+
+const user = {
+    username: "ff",
+    price:133
+}
+function handleObject(anyObject){
+    console.log(`Username is ${anyObject.username} and price is ${anyObject.price}`);
+}
+
+//handleObject(user);
+
+const myNewArray = [400,522,460,200]
+
+function returnSecondValue(getArray){
+    return getArray[1]
+}
+//console.log(returnSecondValue(myNewArray));
+console.log(returnSecondValue([200,400,782,60,741]));
